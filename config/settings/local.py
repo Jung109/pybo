@@ -1,3 +1,3 @@
 from .base import *
 
-ALLOWES_HOSTS = []
+ALLOWED_HOSTS = []
