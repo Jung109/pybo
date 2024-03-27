@@ -1,7 +1,6 @@
 from django.contrib.auth import authenticate, login
 from django.shortcuts import render, redirect
-
-from .forms import UserForm
+from common.forms import UserForm
 
 
 def signup(request):
