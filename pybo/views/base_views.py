@@ -4,11 +4,15 @@ from django.shortcuts import render, get_object_or_404
 
 from ..models import Question
 
+import logging
+logger = logging.getLogger('pybo')
+
 
 def index(request):
     """
     pybo 목록 출력
     """
+    logger.info('INFO 레벨로 출력')
     3/0
     # 입력 파라미터
     page = request.GET.get('page', '1')  # 페이지
